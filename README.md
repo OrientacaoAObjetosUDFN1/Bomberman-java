@@ -16,13 +16,27 @@ A principal e única tecnologia/ferramenta que o projeto utiliza é a linguagem 
 
 ## Demo 
 
-<div style="display: grid; grid-template-columns: 4fr">
-
+<div>
+  <img width="20%" src="./Captura de tela de 2024-11-25 17-19-06.png" />
+  <img width="20%" src="./Captura de tela de 2024-11-25 17-19-30.png" />
+  <img width="20%" src="./Captura de tela de 2024-11-25 17-20-11.png" />
+  <img width="20%" src="./Captura de tela de 2024-11-25 17-20-45.png" />
 </div>
 
+<video src="./gravacao-de-tela-de-2024-11-20-15-26-18_kulZIM9w.mp4" width="320" height="240" controls></video>
+
 ## 🤯 Análise da complexidade do jogo
+Algoritmos de Geração de Mapas Aleatórios (Random Walk)
 
+O Random Walk (caminhada aleatória) é uma técnica simples para gerar mapas ou níveis, como labirintos ou cavernas, em que um ponto de partida é movido aleatoriamente de acordo com regras predefinidas.
 
+Complexidade: O algoritmo realiza uma série de movimentos aleatórios dentro de um grid, com um número fixo de passos. Se o número de passos for P e o tamanho do grid for N × M, a complexidade pode ser aproximada como O(P), já que o algoritmo realiza um número constante de operações por movimento.
+📓
+Sendo assim o número de passos chega a ser 58% de N x M ( N x M o tamanho do mapa ) porque essa é a porcentagem abrangente da aleatoriedade aplicada no algoritmo do jogo, podendo ter um desvio padrão de 10%
+
+## 💻 Repositório
+
+https://github.com/Vitor1317/bomberman-java
 
 ## 🧠 Participantes do projeto
 
